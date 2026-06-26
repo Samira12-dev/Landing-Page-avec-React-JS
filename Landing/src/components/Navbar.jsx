@@ -1,7 +1,7 @@
 
 function Navbar() {
   return (
-    <div className="div">
+    <section className="div">
       <nav className="navbar">
         <h2 className="logo">Glow <span className="lab">Lab</span></h2>
         <ul className="nav-links">
@@ -13,7 +13,7 @@ function Navbar() {
             <button className="btn">Get Started</button>
         </ul>
       </nav>
-    </div>
+    </section>
   )
 }
 export default Navbar;

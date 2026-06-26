@@ -154,6 +154,7 @@ body{
   max-width:500px;
 }  
 
+/*Card*/
 .card{
   background:var(--background);
  width: 40%;
@@ -163,7 +164,7 @@ body{
   text-align: center;
 }
 
-
+/*features*/
 
 .features {
   padding: 80px 50px;
@@ -221,4 +222,111 @@ body{
 .card-description {
   color: #6b7280;
   line-height: 1.6;
+}
+
+/*about*/
+.about{
+ display: flex; 
+ justify-content: space-between;
+ align-items: center;
+ background: var(--section-bg);
+}
+.about-content{
+  width: 50%;
+
+line-height: 35px;
+}
+.about img{
+  width: 50%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-left: 60px;
+
+}
+.about h1{
+  color: var(--text);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about h3{
+  color: var(--primary);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.about p{
+  color: var(--text-light);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.testimonials{
+padding: 80px 50px;
+ background: #fff7f7;
+}
+.testimonials h1 {
+  text-align: center;
+  color: #f48c9e;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #2d2d2d;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.testimonial-container{
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.testimonial-card {
+  width: 300px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: .3s;
+}
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.testimonial-name {
+  font-size: 20px;
+  color: #2d2d2d;
+  margin-bottom: 5px;
+}
+.testimonial-text {
+  color: #6b7280;
+  line-height: 1.6;
+} 
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  color: #FFD700; 
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.stars svg {
+  color: #FFD700;
+  fill: #FFD700;
+}
+
+.user-image{
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 20px;
 }

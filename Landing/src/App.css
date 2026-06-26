@@ -330,3 +330,59 @@ padding: 80px 50px;
  object-fit: cover;
  margin-bottom: 20px;
 }
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: var(--section-bg);
+}
+.contact img{
+  width: 70%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-right: 60px;
+}
+.contact .container{
+  width: 50%;
+  line-height: 35px;
+  padding-right: 30px;
+}
+.contact h1{
+  color: var(--text);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.contact h3{
+  color: var(--primary);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contact p{
+  color: var(--text-light);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-group{
+  display: flex;
+gap: 30px;
+}
+.input-group input{
+  flex: 1;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+textarea{
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  resize: none;
+
+}

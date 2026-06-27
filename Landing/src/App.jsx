@@ -10,19 +10,20 @@ import About from './components/About'
 import Testim from './components/TestimonialCard'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-   <Navbar/>
-   <Hero/>
-   <Features/>
-   <About/>
- <Testimonials/>
- <Contact/>
-
+      <Navbar />
+      <Hero />
+      <Features />
+      <About />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   )
 }

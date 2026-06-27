@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Features() {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <h1>Our Features</h1>
       <h2>Why Choose GlowLab?</h2>
 

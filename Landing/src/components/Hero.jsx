@@ -1,7 +1,7 @@
 
 function Hero() {
     return (
-        <section className="hero">
+        <section className="hero" id="home">
             <div className="hero-content">
                 <h2 className="sm"> PURE BEAUTY , PURE YOU</h2>
                <h1>Glow Smarter. Shine <span className="bright">Brighter</span> </h1>
